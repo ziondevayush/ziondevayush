@@ -28,7 +28,7 @@
 </td>
 <td>
 
-<img src="https://raw.githubusercontent.com/ziondevayush/ziondevayush/main/image/Self.jpeg" width="200" alt="Ayush Kumar Gupta"/>
+<img src="image/Ayush.jpeg" width="250" alt="Ayush Kumar Gupta"/>
 
 </td>
 </tr>
