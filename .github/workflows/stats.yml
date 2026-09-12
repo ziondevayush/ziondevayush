@@ -1,0 +1,40 @@
+name: Generate GitHub Stats SVGs
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"    # every 6 hours
+  workflow_dispatch:           # manual trigger from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # ── Stats card ──────────────────────────────────────────────────────────
+      - name: Fetch GitHub Stats SVG
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api?username=ziondevayush&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=ff69b4&icon_color=ff69b4&count_private=true" \
+            -o dist/stats.svg --create-dirs
+          echo "stats.svg saved"
+
+      # ── Top languages card ───────────────────────────────────────────────────
+      - name: Fetch Top Languages SVG
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=ziondevayush&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=ff69b4" \
+            -o dist/langs.svg
+          echo "langs.svg saved"
+
+      # ── Push both SVGs to the output branch ─────────────────────────────────
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

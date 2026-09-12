@@ -2,8 +2,8 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # runs every 12 hours
-  workflow_dispatch:           # lets you trigger it manually from GitHub Actions tab
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:           # manual trigger
 
 permissions:
   contents: write
