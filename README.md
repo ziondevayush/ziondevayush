@@ -4,9 +4,9 @@
 
 ### 🐍 Aspiring Python Developer & Data Engineer | BCA Student
 
-[![Followers](https://img.shields.io/github/followers/ziondevayush?label=FOLLOWERS&style=for-the-badge&color=pink&labelColor=1a1a2e)](https://github.com/ziondevayush?tab=followers)
-[![Stars](https://img.shields.io/github/stars/ziondevayush?label=STARS&style=for-the-badge&color=pink&labelColor=1a1a2e)](https://github.com/ziondevayush)
-[![Profile Views](https://komarev.com/ghpvc/?username=ziondevayush&label=PROFILE+VIEWS&style=for-the-badge&color=pink)](https://github.com/ziondevayush)
+[![Followers](https://img.shields.io/github/followers/ziondevayush?label=FOLLOWERS&style=for-the-badge&color=blue&labelColor=1a1a2e)](https://github.com/ziondevayush?tab=followers)
+[![Stars](https://img.shields.io/github/stars/ziondevayush?label=STARS&style=for-the-badge&color=blue&labelColor=1a1a2e)](https://github.com/ziondevayush)
+[![Profile Views](https://komarev.com/ghpvc/?username=ziondevayush&label=PROFILE+VIEWS&style=for-the-badge&color=blue)](https://github.com/ziondevayush)
 
 </div>
 
