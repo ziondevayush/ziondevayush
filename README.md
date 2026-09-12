@@ -97,6 +97,8 @@
 </div>
 <div align="center">
 
+</div>
+
 ---
 
 ## 🏆 Accomplishments & Leadership
